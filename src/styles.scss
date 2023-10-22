@@ -35,6 +35,13 @@
                 color:white
             }
         }
+        select{
+            display: block;
+            margin-bottom: 10px;
+            padding: 10px;
+            border-radius: 5px;
+            border: 1px solid #ddd;
+        }
     }
     .appoinment-Card{
         background-color: white;
@@ -55,5 +62,9 @@
         h4{
             color:rgb(39, 38, 38)
         }
+    }
+    .error{
+        color:rgb(241, 49, 49);
+        font-size: 12px;
     }
 }
