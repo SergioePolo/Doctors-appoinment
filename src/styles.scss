@@ -1,0 +1,59 @@
+.app{
+ display: flex;
+ height: 100vh;   
+ flex-direction: column;
+ align-items: center;
+ background-color: rgb(240, 240, 235);
+ font-family: Arial, Helvetica, sans-serif;
+
+    .form-card{
+        background-color: white;
+        margin: 10px;
+        padding: 10px;
+        border-radius: 10px;
+        box-shadow: 5px 5px 5px gray;
+        display: flex;
+        flex-direction: column;
+        
+        input{
+            display: block;
+            margin-bottom: 10px;
+            padding: 10px;
+            border-radius: 5px;
+            border: 1px solid #ddd;
+        }
+
+        button{
+            padding: 10px 20px;
+            margin-top: 10px;
+            border:none;
+            border-radius: 5px;
+            background-color: #ddd;
+            transition: 0.3s all ease-in-out;
+            &:hover{
+                background-color: #17f12f;
+                color:white
+            }
+        }
+    }
+    .appoinment-Card{
+        background-color: white;
+        margin:10px;
+        padding: 20px;
+        border-radius: 10px;
+        box-shadow: 5px 5px gray;
+        
+        h1{
+            color:rgb(68, 67, 67)
+        }
+        h2{
+            color:#16a526
+        }
+        h3{
+            color:rgb(39, 38, 38)
+        }
+        h4{
+            color:rgb(39, 38, 38)
+        }
+    }
+}
